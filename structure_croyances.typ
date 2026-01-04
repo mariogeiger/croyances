@@ -46,12 +46,10 @@
 
 = Introduction
 
-Ce document a pour but de clarifier nos positions respectives sur la nature de la réalité et de l'esprit. Il est conçu comme une échelle où chaque niveau construit sur le précédent, nous invitant à partir de l'existence même du monde pour remonter jusqu'à la nature de la conscience.
+Ce document sert à clarifier nos positions sur la réalité et l’esprit, en identifiant *où* se situe exactement notre désaccord.
+Chaque niveau correspond à une thèse plus exigeante que la précédente : on part de l’existence d’un monde indépendant (*N1*), puis on discute sa nature physique (*N2*), l’apparition de propriétés mentales dans des systèmes complexes (*N3*), et enfin ce que signifie « avoir un esprit » (*N4*).
 
-L'objectif de cette structure n'est pas de convaincre, mais de nous permettre de parcourir ces étapes ensemble pour repérer l'endroit précis où nos intuitions divergent.
-Sommes-nous en désaccord sur l'existence d'une réalité objective (*N1*) ? Sur la nature purement physique du monde (*N2*) ? Sur la façon dont la conscience émerge de la matière (*N3*) ? Ou sur la définition même de l'esprit (*N4*) ?
-
-Cette carte nous permet de dépasser les oppositions stériles pour mieux comprendre la logique interne de chacun.
+L’objectif n’est pas de convaincre, mais de rendre la discussion plus précise : sommes-nous en désaccord sur les faits (ce qui existe), sur l’explication (comment cela existe), ou sur les mots (ce que l’on appelle « mental / conscience / esprit ») ?
 
 #v(1cm)
 #pyramid-diagram()
