@@ -1,0 +1,132 @@
+#set page(paper: "a4", margin: 2cm, flipped: true)
+#set text(font: "Libertinus Serif", lang: "fr", size: 10pt)
+
+// Title formatting
+#align(center, text(17pt)[
+  *Niveaux de croyance sur la réalité*
+])
+
+#let pyramid-diagram() = {
+  let level-height = 1.2cm
+  let base-width = 14cm
+  let top-width = 6cm
+  let levels = (
+    ("Niveau 4 : Fonctionnalisme", luma(96%)),
+    ("Niveau 3 : Émergence", luma(90%)),
+    ("Niveau 2 : Physicalisme", luma(84%)),
+    ("Niveau 1 : Réalisme métaphysique", luma(78%)),
+  )
+  
+  align(center, block(width: base-width, height: levels.len() * level-height)[
+    #for (i, (label, color)) in levels.enumerate() {
+      let y-top = i * level-height
+      let w-top = top-width + (base-width - top-width) * (i / levels.len())
+      let w-bottom = top-width + (base-width - top-width) * ((i + 1) / levels.len())
+      
+      let x1 = (base-width - w-top) / 2
+      let x2 = (base-width + w-top) / 2
+      let x3 = (base-width + w-bottom) / 2
+      let x4 = (base-width - w-bottom) / 2
+      
+      place(top + left, dy: y-top)[
+        #polygon(
+          fill: color,
+          stroke: black + 0.5pt,
+          (x1, 0pt), (x2, 0pt), (x3, level-height), (x4, level-height)
+        )
+      ]
+      place(top + center, dy: y-top + level-height/2 - 0.35em)[
+        #text(weight: "bold", label)
+      ]
+    }
+  ])
+}
+
+#v(1cm)
+
+= Introduction
+
+Ce document a pour but de clarifier nos positions respectives sur la nature de la réalité et de l'esprit. Il est conçu comme une échelle où chaque niveau construit sur le précédent, nous invitant à partir de l'existence même du monde pour remonter jusqu'à la nature de la conscience.
+
+L'objectif de cette structure n'est pas de convaincre, mais de nous permettre de parcourir ces étapes ensemble pour repérer l'endroit précis où nos intuitions divergent.
+Sommes-nous en désaccord sur l'existence d'une réalité objective (*N1*) ? Sur la nature purement physique du monde (*N2*) ? Sur la façon dont la conscience émerge de la matière (*N3*) ? Ou sur la définition même de l'esprit (*N4*) ?
+
+Cette carte nous permet de dépasser les oppositions stériles pour mieux comprendre la logique interne de chacun.
+
+#v(1cm)
+#pyramid-diagram()
+#v(1cm)
+
+#table(
+  columns: (auto, 1.5fr, 1.5fr, 1.2fr),
+  inset: 10pt,
+  align: (left, left, left, left),
+  fill: (_, row) => if calc.even(row) { luma(240) } else { white },
+  stroke: none,
+  
+  [*Niveau*], [*Définition & Résumé*], [*Implications*], [*Objection courante*],
+  
+  [*Niveau 1*\ Réalisme métaphysique],
+  [
+    _« La réalité existe indépendamment de nous »_
+    
+    Il existe une réalité objective indépendante de nos perceptions, croyances ou constructions mentales.
+  ],
+  [
+    - La vérité n’est pas relative aux points de vue.
+    - La science décrit (imparfaitement) une réalité préexistante.
+    - #text(style: "italic", size: 9pt)[Note : Bien que la réalité existe, nous n'y avons pas nécessairement un accès direct.]
+  ],
+  [
+    _« La réalité est construite par la conscience / la culture / le langage »_
+  ],
+
+  [*Niveau 2*\ Physicalisme / Naturalisme],
+  [
+    _« Tout est naturel et physique »_
+    
+    Tout ce qui existe appartient au monde naturel et obéit aux lois physiques.
+  ],
+  [
+    - Rejet des âmes, esprits immatériels et causes surnaturelles.
+    - Le mental est ancré dans des processus physiques.
+  ],
+  [
+    _« La conscience ne peut pas être réduite à de la matière. Il doit y avoir "autre chose". »_
+  ],
+
+  [*Niveau 3*\ Émergence],
+  [
+    _« La complexité engendre des propriétés nouvelles »_
+    
+    Des propriétés nouvelles apparaissent à des niveaux d’organisation supérieurs sans violer les lois physiques.
+  ],
+  [
+    - La conscience est réelle, même si elle n’est pas fondamentale.
+    - Les sentiments et le sens ne sont pas des illusions, mais des phénomènes complexes.
+  ],
+  [
+    _« L'émergence ne suffit pas ; la conscience doit être fondamentale (Panpsychisme / Âme). »_
+  ],
+
+  [*Niveau 4*\ Fonctionnalisme],
+  [
+    _« L’esprit est un processus, pas une substance »_
+    
+    Les états mentaux sont définis par leur rôle fonctionnel, indépendamment du substrat qui les réalise.
+  ],
+  [
+    - La conscience n’est pas spécifique au cerveau biologique.
+    - Des machines peuvent, en principe, avoir des états mentaux.
+  ],
+  [
+    _« Une machine ne peut jamais vraiment ressentir »_
+  ]
+)
+
+#v(1cm)
+= Comment utiliser cette échelle ?
+L'objectif n'est pas de convaincre, mais de situer le désaccord :
+- Si on est d'accord sur N1 mais pas N2, le débat porte sur la *nature* de la réalité (Matière vs Esprit).
+- Si on est d'accord sur N2 mais pas N3, le débat porte sur le *réductionnisme* (Sommes-nous "juste" des atomes ?).
+- Si on est d'accord sur N3 mais pas N4, le débat porte sur le *substrat* (L'esprit peut-il exister hors du biologique ?).
