@@ -111,16 +111,19 @@ Cette carte nous permet de dépasser les oppositions stériles pour mieux compre
 
   [*Niveau 4*\ Fonctionnalisme],
   [
-    _« L’esprit est un processus, pas une substance »_
-    
-    Les états mentaux sont définis par leur rôle fonctionnel, indépendamment du substrat qui les réalise.
+    _« Les états mentaux sont des rôles causaux »_
+
+    Un état mental (croire, désirer, avoir peur…) est défini par son *rôle causal* : ses déclencheurs (*entrées*), ses liens avec d’autres états internes, et ses effets (*sorties* : décisions, paroles, actions).
+    #text(style: "italic", size: 9pt)[Idée associée : *réalisabilité multiple* — le même rôle pourrait, en principe, être réalisé par d’autres supports.]
   ],
   [
-    - La conscience n’est pas spécifique au cerveau biologique.
-    - Des machines peuvent, en principe, avoir des états mentaux.
+    - L’« esprit » désigne ici une *organisation fonctionnelle*, pas une substance immatérielle.
+    - Le substrat (neurones, silicium…) importe moins que les relations fonctionnelles.
   ],
   [
-    _« Une machine ne peut jamais vraiment ressentir »_
+    _« Ça décrit le fonctionnement, mais pas le ressenti »_
+
+    Objection : même si la structure est correcte, explique-t-on vraiment le *ressenti* (qualia) ?
   ]
 )
 
