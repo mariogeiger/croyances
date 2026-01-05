@@ -46,10 +46,10 @@
 
 = Introduction
 
-Ce document sert à clarifier nos positions sur la réalité et l’esprit, en identifiant *où* se situe exactement notre désaccord.
-Chaque niveau correspond à une thèse plus exigeante que la précédente : on part de l’existence d’un monde indépendant (*N1*), puis on discute sa nature physique (*N2*), l’apparition de propriétés mentales dans des systèmes complexes (*N3*), et enfin ce que signifie « avoir un esprit » (*N4*).
+Ce document sert à clarifier nos positions sur la réalité, en identifiant *où* se situe exactement notre désaccord.
+Chaque niveau correspond à une thèse plus exigeante que la précédente : on part de l'existence d'un monde indépendant (*N1*), puis on discute sa nature physique (*N2*), l'apparition de propriétés mentales dans des systèmes complexes (*N3*), et enfin ce que signifie avoir des états mentaux (*N4*).
 
-L’objectif n’est pas de convaincre, mais de rendre la discussion plus précise : sommes-nous en désaccord sur les faits (ce qui existe), sur l’explication (comment cela existe), ou sur les mots (ce que l’on appelle « mental / conscience / esprit ») ?
+L'objectif n'est pas de convaincre, mais de rendre la discussion plus précise : sommes-nous en désaccord sur les faits (ce qui existe), sur l'explication (comment cela existe), ou sur les mots (ce que l'on appelle « mental / conscience ») ?
 
 #v(1cm)
 #pyramid-diagram()
@@ -86,7 +86,7 @@ L’objectif n’est pas de convaincre, mais de rendre la discussion plus préci
     Tout ce qui existe appartient au monde naturel et obéit aux lois physiques.
   ],
   [
-    - Rejet des âmes, esprits immatériels et causes surnaturelles.
+    - Rejet des causes surnaturelles.
     - Le mental est ancré dans des processus physiques.
   ],
   [
@@ -115,7 +115,7 @@ L’objectif n’est pas de convaincre, mais de rendre la discussion plus préci
     #text(style: "italic", size: 9pt)[Idée associée : *réalisabilité multiple* — le même rôle pourrait, en principe, être réalisé par d’autres supports.]
   ],
   [
-    - L’« esprit » désigne ici une *organisation fonctionnelle*, pas une substance immatérielle.
+    - Les états mentaux désignent ici une *organisation fonctionnelle*, pas une substance immatérielle.
     - Le substrat (neurones, silicium…) importe moins que les relations fonctionnelles.
   ],
   [
@@ -128,6 +128,6 @@ L’objectif n’est pas de convaincre, mais de rendre la discussion plus préci
 #v(1cm)
 = Comment utiliser cette échelle ?
 L'objectif n'est pas de convaincre, mais de situer le désaccord :
-- Si on est d'accord sur N1 mais pas N2, le débat porte sur la *nature* de la réalité (Matière vs Esprit).
+- Si on est d'accord sur N1 mais pas N2, le débat porte sur la *nature* de la réalité.
 - Si on est d'accord sur N2 mais pas N3, le débat porte sur le *réductionnisme* (Sommes-nous "juste" des atomes ?).
-- Si on est d'accord sur N3 mais pas N4, le débat porte sur le *substrat* (L'esprit peut-il exister hors du biologique ?).
+- Si on est d'accord sur N3 mais pas N4, le débat porte sur le *substrat* (La conscience peut-elle exister hors du biologique ?).
