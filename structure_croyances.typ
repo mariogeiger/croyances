@@ -3,56 +3,9 @@
 
 // Title formatting
 #align(center, text(17pt)[
-  *Niveaux de croyance sur la réalité*
+  *Positions philosophiques sur la réalité*
 ])
 
-#let pyramid-diagram() = {
-  let level-height = 1.2cm
-  let base-width = 14cm
-  let top-width = 6cm
-  let levels = (
-    ("Niveau 4 : Fonctionnalisme", luma(96%)),
-    ("Niveau 3 : Émergence", luma(90%)),
-    ("Niveau 2 : Physicalisme", luma(84%)),
-    ("Niveau 1 : Réalisme métaphysique", luma(78%)),
-  )
-  
-  align(center, block(width: base-width, height: levels.len() * level-height)[
-    #for (i, (label, color)) in levels.enumerate() {
-      let y-top = i * level-height
-      let w-top = top-width + (base-width - top-width) * (i / levels.len())
-      let w-bottom = top-width + (base-width - top-width) * ((i + 1) / levels.len())
-      
-      let x1 = (base-width - w-top) / 2
-      let x2 = (base-width + w-top) / 2
-      let x3 = (base-width + w-bottom) / 2
-      let x4 = (base-width - w-bottom) / 2
-      
-      place(top + left, dy: y-top)[
-        #polygon(
-          fill: color,
-          stroke: black + 0.5pt,
-          (x1, 0pt), (x2, 0pt), (x3, level-height), (x4, level-height)
-        )
-      ]
-      place(top + center, dy: y-top + level-height/2 - 0.35em)[
-        #text(weight: "bold", label)
-      ]
-    }
-  ])
-}
-
-#v(1cm)
-
-= Introduction
-
-Ce document sert à clarifier nos positions sur la réalité, en identifiant *où* se situe exactement notre désaccord.
-Chaque niveau correspond à une thèse plus exigeante que la précédente : on part de l'existence d'un monde indépendant (*N1*), puis on discute sa nature physique (*N2*), l'apparition de propriétés mentales dans des systèmes complexes (*N3*), et enfin ce que signifie avoir des états mentaux (*N4*).
-
-L'objectif n'est pas de convaincre, mais de rendre la discussion plus précise : sommes-nous en désaccord sur les faits (ce qui existe), sur l'explication (comment cela existe), ou sur les mots (ce que l'on appelle « mental / conscience ») ?
-
-#v(1cm)
-#pyramid-diagram()
 #v(1cm)
 
 #table(
@@ -62,9 +15,9 @@ L'objectif n'est pas de convaincre, mais de rendre la discussion plus précise :
   fill: (_, row) => if calc.even(row) { luma(240) } else { white },
   stroke: none,
   
-  [*Niveau*], [*Définition & Résumé*], [*Implications*], [*Objection courante*],
-  
-  [*Niveau 1*\ Réalisme métaphysique],
+  [*Position*], [*Définition & Résumé*], [*Implications*], [*Objection courante*],
+
+  [*Réalisme métaphysique*],
   [
     _« La réalité existe indépendamment de nous »_
     
@@ -79,7 +32,7 @@ L'objectif n'est pas de convaincre, mais de rendre la discussion plus précise :
     _« La réalité est construite par la conscience / la culture / le langage »_
   ],
 
-  [*Niveau 2*\ Physicalisme / Naturalisme],
+  [*Physicalisme / Naturalisme*],
   [
     _« Tout est naturel et physique »_
     
@@ -93,7 +46,7 @@ L'objectif n'est pas de convaincre, mais de rendre la discussion plus précise :
     _« La conscience ne peut pas être réduite à de la matière. Il doit y avoir "autre chose". »_
   ],
 
-  [*Niveau 3*\ Émergence],
+  [*Émergence*],
   [
     _« La complexité engendre des propriétés nouvelles »_
     
@@ -107,7 +60,7 @@ L'objectif n'est pas de convaincre, mais de rendre la discussion plus précise :
     _« L'émergence ne suffit pas ; la conscience doit être fondamentale (Panpsychisme / Âme). »_
   ],
 
-  [*Niveau 4*\ Fonctionnalisme],
+  [*Fonctionnalisme*],
   [
     _« Les états mentaux sont des rôles causaux »_
 
@@ -122,12 +75,40 @@ L'objectif n'est pas de convaincre, mais de rendre la discussion plus précise :
     _« Ça décrit le fonctionnement, mais pas le ressenti »_
 
     Objection : même si la structure est correcte, explique-t-on vraiment le *ressenti* (qualia) ?
+  ],
+
+  [*Rasoir d'Ockham*],
+  [
+    _« Préférer la simplicité et accepter l'incertitude »_
+
+    Face à plusieurs explications possibles, il faut privilégier la plus simple. Corolaire : il vaut mieux accepter de ne pas avoir d'explication que d'adopter une explication improbable ou complexe sans nécessité.
+  ],
+  [
+    - Les explications doivent être justifiées par les faits, pas par nos préférences.
+    - L'absence d'explication complète n'est pas une raison pour inventer une explication non fondée.
+    - La simplicité ne garantit pas la vérité, mais elle évite de multiplier les hypothèses sans preuve.
+  ],
+  [
+    _« Mais la réalité n'est pas toujours simple ! »_
+
+    Objection : le rasoir d'Ockham pourrait rejeter des explications vraies mais complexes.
   ]
 )
 
 #v(1cm)
-= Comment utiliser cette échelle ?
-L'objectif n'est pas de convaincre, mais de situer le désaccord :
-- Si on est d'accord sur N1 mais pas N2, le débat porte sur la *nature* de la réalité.
-- Si on est d'accord sur N2 mais pas N3, le débat porte sur le *réductionnisme* (Sommes-nous "juste" des atomes ?).
-- Si on est d'accord sur N3 mais pas N4, le débat porte sur le *substrat* (La conscience peut-elle exister hors du biologique ?).
+= Sujets de débat
+Ces positions peuvent s'appliquer à différents débats philosophiques et scientifiques :
+
+- *La conscience et les qualia* : La sensation subjective (le rouge, la douleur) est-elle réductible à des processus physiques ou nécessite-t-elle une explication non-physique ?
+
+- *Intelligence artificielle et conscience* : Une machine peut-elle être consciente ? Le substrat biologique est-il nécessaire ou seule l'organisation fonctionnelle importe ?
+
+- *L'existence d'une âme ou d'un esprit immatériel* : Y a-t-il une substance non-physique qui survit au corps ? Ou sommes-nous entièrement des êtres physiques ?
+
+- *Le libre arbitre* : Nos décisions sont-elles déterminées par des lois physiques ? L'émergence de la conscience change-t-elle quelque chose à la question ?
+
+- *La nature de la réalité* : Le monde existe-t-il indépendamment de notre conscience ? Ou est-il construit par nos perceptions et notre culture ?
+
+- *Le surnaturel et les miracles* : Les événements peuvent-ils échapper aux lois naturelles ? Comment évaluer les témoignages extraordinaires ?
+
+- *La méthode scientifique* : Comment choisir entre plusieurs explications concurrentes ? Quel rôle pour la simplicité et la parcimonie ?
