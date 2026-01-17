@@ -83,6 +83,23 @@ L'objectif n'est pas de convaincre, mais de rendre la discussion plus précise :
     _« Ça décrit le fonctionnement, mais pas le ressenti »_
 
     Objection : même si la structure est correcte, explique-t-on vraiment le *ressenti* (qualia) ?
+  ],
+
+  [*Rasoir d'Ockham*],
+  [
+    _« Préférer la simplicité et accepter l'incertitude »_
+
+    Face à plusieurs explications possibles, il faut privilégier la plus simple. Corolaire : il vaut mieux accepter de ne pas avoir d'explication que d'adopter une explication improbable ou complexe sans nécessité.
+  ],
+  [
+    - Les explications doivent être justifiées par les faits, pas par nos préférences.
+    - L'absence d'explication complète n'est pas une raison pour inventer une explication non fondée.
+    - La simplicité ne garantit pas la vérité, mais elle évite de multiplier les hypothèses sans preuve.
+  ],
+  [
+    _« Mais la réalité n'est pas toujours simple ! »_
+
+    Objection : le rasoir d'Ockham pourrait rejeter des explications vraies mais complexes.
   ]
 )
 
