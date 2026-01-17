@@ -6,14 +6,6 @@
   *Positions philosophiques sur la réalité*
 ])
 
-
-= Introduction
-
-Ce document sert à clarifier nos positions sur la réalité, en identifiant *où* se situe exactement notre désaccord.
-Nous présentons ici plusieurs positions philosophiques qui abordent différents aspects de notre compréhension de la réalité : l'existence d'un monde indépendant, sa nature physique, l'apparition de propriétés mentales dans des systèmes complexes, et ce que signifie avoir des états mentaux.
-
-L'objectif n'est pas de convaincre, mais de rendre la discussion plus précise : sommes-nous en désaccord sur les faits (ce qui existe), sur l'explication (comment cela existe), ou sur les mots (ce que l'on appelle « mental / conscience ») ?
-
 #v(1cm)
 
 #table(
