@@ -96,8 +96,19 @@
 )
 
 #v(1cm)
-= Comment utiliser ce cadre ?
-L'objectif n'est pas de convaincre, mais de situer le désaccord :
-- Si on est d'accord sur le réalisme métaphysique mais pas le physicalisme, le débat porte sur la *nature* de la réalité.
-- Si on est d'accord sur le physicalisme mais pas l'émergence, le débat porte sur le *réductionnisme* (Sommes-nous "juste" des atomes ?).
-- Si on est d'accord sur l'émergence mais pas le fonctionnalisme, le débat porte sur le *substrat* (La conscience peut-elle exister hors du biologique ?).
+= Sujets de débat
+Ces positions peuvent s'appliquer à différents débats philosophiques et scientifiques :
+
+- *La conscience et les qualia* : La sensation subjective (le rouge, la douleur) est-elle réductible à des processus physiques ou nécessite-t-elle une explication non-physique ?
+
+- *Intelligence artificielle et conscience* : Une machine peut-elle être consciente ? Le substrat biologique est-il nécessaire ou seule l'organisation fonctionnelle importe ?
+
+- *L'existence d'une âme ou d'un esprit immatériel* : Y a-t-il une substance non-physique qui survit au corps ? Ou sommes-nous entièrement des êtres physiques ?
+
+- *Le libre arbitre* : Nos décisions sont-elles déterminées par des lois physiques ? L'émergence de la conscience change-t-elle quelque chose à la question ?
+
+- *La nature de la réalité* : Le monde existe-t-il indépendamment de notre conscience ? Ou est-il construit par nos perceptions et notre culture ?
+
+- *Le surnaturel et les miracles* : Les événements peuvent-ils échapper aux lois naturelles ? Comment évaluer les témoignages extraordinaires ?
+
+- *La méthode scientifique* : Comment choisir entre plusieurs explications concurrentes ? Quel rôle pour la simplicité et la parcimonie ?
